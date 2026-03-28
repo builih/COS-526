@@ -1,0 +1,30 @@
+# Binaries & installers
+*.exe
+miniconda.exe
+
+# Large model outputs
+*.ply
+*.mp4
+*.pkl
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Data / output directories
+**/lyra_sdg_output/
+**/lyra_recon_output/
+**/output_destylized*/
+**/checkpoints/
+**/local_models/
+**/__pycache__/
+*.pyc
+
+# Font files
+*.ttf
+
+# OS
+Thumbs.db
+.DS_Store
